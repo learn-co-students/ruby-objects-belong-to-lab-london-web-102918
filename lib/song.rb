@@ -1,7 +1,8 @@
+require_relative 'artist'
 class Song
   attr_accessor :title, :artist
 
-  def initialize(title, artist)
+  def initialize
     @title = title
     @artist = artist
   end
